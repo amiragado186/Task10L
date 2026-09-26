@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<style>
+        
+label {
+  display: inline-block; /* Allows vertical margins to work */
+  margin-top: 10px;
+}
+
+</style>
+    
+
+<h1>HTML Form Example</h1>
+<p>This is an example of an <del>HTML4</del> <u>HTML5</u> form containing <span lang="ar" dir="rtl">يحتوي</span> various <mark>input</mark> controls: </p>
+ <fieldset>
+            <legend>User Information</legend>
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+            </div>
+  </fieldset>
+  <fieldset>
+            <legend>Contact Information</legend>
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" cols="30"></textarea>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Subscription</legend>
+            <div class="form-group">
+                Subscribe to newsletter: <input type="checkbox" name="newsletter1">
+            </div>
+            <div class="form-group">
+                Subscribe to newsletter: <input type="checkbox" name="newsletter2">
+            </div>
+        </fieldset>
+         <fieldset>
+            <legend>Preferred Language</legend>
+            <div class="form-group">
+                <label for="language">Select your preferred language:</label>
+                <select id="language" name="language">
+                    <option value="english" selected>English</option>
+                    <option value="spanish">Spanish</option>
+                    <option value="french">French</option>
+                    <option value="german">German</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Feedback</legend>
+            <div class="form-group">
+                <label for="rate">Rate our service:</label>
+                <input type="range" id="rate" name="rate" min="1" max="5">
+            </div>
+        </fieldset>
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+
+</body>
+</html>
